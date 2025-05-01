@@ -1,0 +1,27 @@
+project: 
+  type: website
+  output-dir: docs
+  
+website:
+  title: "Miguel Lau"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Marketing Analytics"
+        href: marketing-analytics.qmd
+      - text: "Strategic Marketing"
+        href: strategic-marketing.qmd
+      - text: "Resume"
+        href: resume.qmd
+       
+       
+ 
+
+format:
+  html:
+    theme: cerulean
+    toc: true
+
+editor: source
+
